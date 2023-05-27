@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kaushan+Script&family=Lexend:wght@500&family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,800&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Poppins&family=Roboto+Slab:wght@700&family=Roboto:ital,wght@0,300;0,400;1,300&family=Tinos:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 20px 70px 0px 63px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 88.46px;
+  height: 60px;
+}
+
+ul {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #051e55;
+  gap: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+.container-2 {
+    padding: 63px 74px 63px 53px;
+    display: flex;
+    gap: 68px;
+  }
+  .cloud-image {
+    width: 467px;
+    height: 512px;
+  }
+  
+  .text {
+    width: 100%;
+  }
+  
+  .text h4 {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #0e3c8a;
+  }
+  
+  .text p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #23201e;
+  }
+  
+  .text button {
+    width: 174px;
+    height: 58px;
+    background: #2e7cdf;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+    
+  }
+@media screen and (max-width: 1275px) {
+  .container-2 {
+    padding: 20px 90px 0px 83px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  ul {
+    font-size: 16px;
+  }
+
+  .text h4 {
+    font-size: 24px;
+  }
+
+  .text p {
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #23201e;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  nav {
+    display: flex;
+    /* flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        */
+  }
+
+  ul {
+    font-size: 12px;
+    display: flex;
+    /*  flex-direction: column; */
+    gap: 30px;
+  }
+
+  .text h4 {
+    font-size: 21px;
+  }
+
+  .text p {
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    color: #23201e;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container-2{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cloud-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+
+  
+
+
+}
+
+/* @media screen and (max-width: px) {
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0e3c8a;
+      }
+
+      .text h4 {
+        font-size: 17px;
+      }
+    
+      .text p {
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        color: #23201e;
+      }
+} */
